@@ -21,8 +21,12 @@ programa
 
           area = b*a/2 
           
-          escreva("O valor da hipotenusa é:  \n" , h"cm")
-          escreva("\nO valor da área é:  \n" , area"cm")
+          h = mat.arredondar(h, 2)
+
+          area = mat.arredondar(area, 2)
+          
+          escreva("O valor da hipotenusa é:  \n" , h, " cm")
+          escreva("\nO valor da área é:  \n" , area, " cm")
 		
 	}
 }
@@ -31,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 461; 
+ * @POSICAO-CURSOR = 480; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
