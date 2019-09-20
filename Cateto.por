@@ -1,11 +1,9 @@
 programa
 {
 	inclua biblioteca Matematica --> mat
-	real  a, b , h , area, a2, b2
+	real  a, b, h ,area, a2, b2
 	funcao inicio()
 	{
-		
-		
 		escreva("Algoritmo Cateto  \n")
 
 		escreva("Insira o valor de a:  \n")
@@ -26,8 +24,7 @@ programa
           area = mat.arredondar(area, 2)
           
           escreva("O valor da hipotenusa é:  \n" , h, " cm")
-          escreva("\nO valor da área é:  \n" , area, " cm")
-		
+          escreva("\nO valor da área é:  \n" , area, " cm")	
 	}
 }
 /* $$$ Portugol Studio $$$ 
